@@ -1,4 +1,5 @@
 var findReplace = function(string, find, replace) {
-  return string.replace(find, replace);
+  var findall = new RegExp(find, "g")
+  return string.replace(findall, replace);
 
 };
