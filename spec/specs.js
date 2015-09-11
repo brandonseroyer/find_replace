@@ -1,5 +1,5 @@
 describe('findReplace', function() {
-  it('it will change the word Brandon to Nicole', function() {
-      expect(findReplace("Brandon").to.equal("Nicole");
+  it("will find and replace a word in a string", function() {
+    expect(findReplace("Brandon is cool","Brandon", "Nicole")).to.equal("Nicole is cool");
   });
 });
