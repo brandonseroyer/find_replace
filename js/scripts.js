@@ -4,7 +4,7 @@ var findReplace = function(string, find, replace) {
 };
 
 $(document).ready(function() {
-  $("form#find-replace").submit(function(event) {
+  $("form#findreplace").submit(function(event) {
     event.preventDefault()
 
     var string = $("input#string").val();

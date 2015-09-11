@@ -10,18 +10,16 @@
 </head>
 <body>
   <div class="container">
-    <h1>Roman Numeral</h1>
-
-    <form id="find-replace">
-      <input type="text" name="number" id="number" placeholder="Type in a word to replace:" required>
-
-      <input type="text" name="number" id="number" placeholder="Type in a new word:" required>
-
-      <button class="waves-effect waves-light btn" type="submit">Submit</button>
+    <h1>Find and Replace</h1>
+    <form id="findreplace">
+      <input type="text" name="string" id="string" placeholder="Type a sentence:" required>
+      <input type="text" name="find" id="find" placeholder="Type in a word to replace:" required>
+      <input type="text" name="replace" id="replace" placeholder="Type in a word to replace with:" required>
+      <button class="btn waves-effect waves-light" type="submit">Submit</button>
     </form>
 
-    <div id="result">
-      <h2><span id="roman"></span></h2>
+    <div class="result">
+      <span id="result"></span>
     </div>
   </div>
 </body>
